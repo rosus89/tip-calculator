@@ -1,0 +1,36 @@
+body{
+    display: grid;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    background: #2e2c3a;
+    color: #000000;
+}
+main {
+    border: 1px solid black;
+    padding: 2rem 3rem;
+    background: #c5b8b8;
+}
+
+input{
+    font-size: 18px;
+    font-weight: 400;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: inherit;
+    position: relative;
+    text-align: center;
+}
+
+
+input:focus{
+    border:none;
+    outline: none;
+}
+
+#tipAmount::before, #billAmount::before{
+    content:"£";
+}
+
